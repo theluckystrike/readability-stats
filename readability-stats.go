@@ -8,6 +8,10 @@
 // heuristic (Flesch's method) with silent-e / le / es / ed handling; it is
 // deterministic for any input.
 //
+// To check a value this package returns against a second implementation of the
+// same two formulas, paste the text into the browser scorer at
+// https://belikenative.com/tools/readability-scorer/
+//
 // The published formulas are:
 //
 //	readingEase   = 206.835 - 1.015*(words/sentences) - 84.6*(syllables/words)

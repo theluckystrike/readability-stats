@@ -15,6 +15,10 @@ The published formulas:
 
 Both return `0.0` when there are no words or no sentences.
 
+To check a value this package returns against a second implementation of the
+same two formulas, paste the text into the browser
+[readability scorer](https://belikenative.com/tools/readability-scorer/).
+
 ## Install
 
 ```sh
