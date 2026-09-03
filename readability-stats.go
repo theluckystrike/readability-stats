@@ -12,6 +12,11 @@
 // same two formulas, paste the text into the browser scorer at
 // https://belikenative.com/tools/readability-scorer/
 //
+// Both formulas are calibrated on English, and the syllable heuristic assumes
+// English vowel groups, so a score computed here for non-English prose is not
+// comparable across languages. What to do instead is set out in
+// https://belikenative.com/how-to-test-readability-across-multiple-languages/
+//
 // The published formulas are:
 //
 //	readingEase   = 206.835 - 1.015*(words/sentences) - 84.6*(syllables/words)
